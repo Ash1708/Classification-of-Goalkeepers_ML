@@ -1,5 +1,7 @@
 # Classification of Elite and sub elite Goalkeepers from professional football using multiple machine learning models (Internship Project)
+
 ## Overview
+Implemented a machine learning pipeline to classify elite vs. sub-elite goalkeepers using Opta football data. Compared Logistic Regression, Random Forest, and Gradient Boosting models, achieving ~67% accuracy and 0.72 ROC-AUC. Project demonstrates end-to-end ML skills: preprocessing, feature selection (RFE), cross-validation, model evaluation, and feature interpretability — with insights highlighting the importance of distribution and passing skills in modern elite goalkeepers.
 * Built ML models to classify elite vs. sub-elite goalkeepers in top European leagues.
 * Elite GK = UEFA Champions League appearance (proxy for top-tier status).
 * Based on real-world Opta Sports performance data (14,671 match observations).
@@ -14,8 +16,19 @@ Which performance attributes best distinguish elite from sub-elite professional 
 * Balanced dataset (~5,918 samples) using under-sampling.
 * Data preprocessed: irrelevant features removed, Min–Max scaling applied.
 
+
 ## Methodology
 A structured ML pipeline to preprocess the data, train multiple models, and evaluate their performance
+
+Libraries & Tools
+
+Data handling & preprocessing: pandas, numpy
+
+Machine learning & feature selection: scikit-learn (Logistic Regression, Random Forest, Gradient Boosting, RFE, GridSearchCV, train/test split)
+
+Visualization: matplotlib, seaborn (confusion matrices, ROC curves, feature importance plots)
+
+Environment: Jupyter Notebook, Python 3.x
 
 * Feature selection: Recursive Feature Elimination (RFE).
 * Models used: Logistic Regression, Random Forest, Gradient Boosting.
