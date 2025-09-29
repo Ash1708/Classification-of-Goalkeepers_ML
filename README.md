@@ -42,17 +42,12 @@ Logistic Regression
 Random Forest
 ![ROC Curve - Random_forest](Visuals/ROC_curve_randomforest.png)
 
-
-
-
-
-
 Gradient Boosting
 
-Training set | Test set
+![ROC Curve - Gradient_Boosting](Visuals/ROC_curve_gradient.png)
 
 
-## Key Takeaways
+## Insights
 
 * End-to-end ML pipeline: preprocessing → feature selection → training → evaluation → interpretation.
 * Multi-model approach: robustness via LR, RF, GBC comparison.
