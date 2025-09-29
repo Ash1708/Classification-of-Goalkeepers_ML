@@ -44,7 +44,7 @@ Logistic Regression
 
 Random Forest
 
-Training set | Test set
+
 
 
 
