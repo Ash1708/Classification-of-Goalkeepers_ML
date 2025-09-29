@@ -17,19 +17,16 @@ Which performance attributes best distinguish elite from sub-elite professional 
 * Data preprocessed: irrelevant features removed, Min–Max scaling applied.
 
 
+## Libraries & Tools
+
+* Data handling & preprocessing: pandas, numpy
+* Machine learning & feature selection: scikit-learn (Logistic Regression, Random Forest, Gradient Boosting, RFE, GridSearchCV, train/test split)
+* Visualization: matplotlib, seaborn (confusion matrices, ROC curves, feature importance plots)
+* Environment: Jupyter Notebook, Python 3.x
+
+
 ## Methodology
 A structured ML pipeline to preprocess the data, train multiple models, and evaluate their performance
-
-Libraries & Tools
-
-Data handling & preprocessing: pandas, numpy
-
-Machine learning & feature selection: scikit-learn (Logistic Regression, Random Forest, Gradient Boosting, RFE, GridSearchCV, train/test split)
-
-Visualization: matplotlib, seaborn (confusion matrices, ROC curves, feature importance plots)
-
-Environment: Jupyter Notebook, Python 3.x
-
 * Feature selection: Recursive Feature Elimination (RFE).
 * Models used: Logistic Regression, Random Forest, Gradient Boosting.
 * Model tuning: Grid search + 5-fold cross-validation.
