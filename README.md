@@ -36,11 +36,11 @@ A structured ML pipeline to preprocess the data, train multiple models, and eval
 ## ROC curves
 
 Logistic Regression
-![ROC Curve - Logistic Regression](visuals/ROC_curve_logisticregression.png)
+![ROC Curve - Logistic Regression](Visuals/ROC_curve_logisticregression.png)
 
 
 Random Forest
-![ROC Curve - Random_forest](visuals/ROC_curve_randomforest.png)
+![ROC Curve - Random_forest](Visuals/ROC_curve_randomforest.png)
 
 
 
