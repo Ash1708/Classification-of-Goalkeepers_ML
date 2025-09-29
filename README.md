@@ -19,9 +19,9 @@ Which performance attributes best distinguish elite from sub-elite professional 
 
 ## Libraries & Tools
 
-* Data handling & preprocessing: pandas, numpy
-* Machine learning & feature selection: scikit-learn (Logistic Regression, Random Forest, Gradient Boosting, RFE, GridSearchCV, train/test split)
-* Visualization: matplotlib, seaborn (confusion matrices, ROC curves, feature importance plots)
+* Data handling & preprocessing: Pandas, Numpy
+* Machine learning & feature selection: Scikit-learn (Logistic Regression, Random Forest, Gradient Boosting, RFE, GridSearchCV, train/test split)
+* Visualization: Matplotlib, Seaborn (confusion matrices, ROC curves, feature importance plots)
 * Environment: Jupyter Notebook, Python 3.x
 
 
