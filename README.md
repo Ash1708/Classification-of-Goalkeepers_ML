@@ -39,10 +39,8 @@ Logistic Regression
 ![ROC Curve - Logistic Regression](visuals/ROC_curve_logisticregression.png)
 
 
-
-
-
 Random Forest
+![ROC Curve - Random_forest](visuals/ROC_curve_randomforest.png)
 
 
 
