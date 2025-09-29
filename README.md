@@ -1,13 +1,24 @@
+# Classification of ELite and sub elite Goalkeepers from professional football using multiple machine learning models (Internship Project)
+## Overview
+* Built ML models to classify elite vs. sub-elite goalkeepers in top European leagues.
+* Elite GK = UEFA Champions League appearance (proxy for top-tier status).
+* Based on real-world Opta Sports performance data (14,671 match observations).
 
-## Classification of Elite and Sub Elite Goalkeepers in professional men’s football using multiple machine learning algorithms(Internship).
+## Question 
+Which performance attributes best distinguish elite from sub-elite professional football goalkeepers, and can machine learning models reliably classify them based on match performance data?
 
+## Dataset
 
-* Data Preprocessing: Pandas, NumPy
-* Dataset: Football data from several elite European leagues over five seasons (2013/2014–2017/2018) obtained from Opta Sports.
-* Conducted exploratory data analysis (EDA) to identify anomalies, missing values, and trends.
-* Developed and engineered features to enhance model performance and facilitate more accurate predictions. Employed techniques such as normalization, encoding, and dimensionality reduction to optimize the   
-  input data.
-* Classification algorithms used:  Logistic Regression, Decision Trees, Random Forest, XGBoost) using scikit-learn.
-* Utilized cross-validation and hyperparameter tuning to improve model robustness and prevent overfitting.
-•	Model evaluation: Accuracy, Precision, Recall, F1-score, and confusion matrices.
-* Documented methodologies, generated visualizations, and provided actionable insights to support data-driven decision-making.
+* 5 seasons (2013/14–2017/18), 353 goalkeepers.
+* 73 performance KPIs (passing, distribution, saves, etc.).
+* Balanced dataset (~5,918 samples) using under-sampling.
+* Data preprocessed: irrelevant features removed, Min–Max scaling applied.
+
+## Methodology
+A structured ML pipeline to preprocess the data, train multiple models, and evaluate their performance
+
+* Feature selection: Recursive Feature Elimination (RFE).
+* Models used: Logistic Regression, Random Forest, Gradient Boosting.
+* Model tuning: Grid search + 5-fold cross-validation.
+* Evaluation metrics: Accuracy, F1-Score, ROC-AUC.
+* Interpretability: LR coefficients + feature importance (RF & GBC).
