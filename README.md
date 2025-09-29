@@ -33,16 +33,11 @@ A structured ML pipeline to preprocess the data, train multiple models, and eval
 * Elite indicators: short distribution, passes received, successful forward passes, clean sheets.
 * Sub-elite indicators: long distribution, unsuccessful opposition-half passes, more goals conceded.
 
-## Confusion Matrices
+## ROC curves
 
 Logistic Regression
+![ROC Curve - Logistic Regression](visuals/ROC_curve_logisticregression.png)
 
-Training set
-
-
-
-
-| Test set
 
 
 
